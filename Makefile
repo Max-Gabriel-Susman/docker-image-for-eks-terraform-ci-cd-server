@@ -9,6 +9,8 @@ spin_up_jenkins:
 configure_jenkins_node:
 	echo 'setting lifespan of node'
 
+	echo 'installing git'
+
 	echo 'installing jenkins'
 
 	echo 'installing terraform'
@@ -28,3 +30,4 @@ provision_on_macos:
 
 	make configure_jenkins_node
 	
+![image info](./pictures/image.png)
